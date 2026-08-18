@@ -1,4 +1,6 @@
-﻿using Terraria;
+﻿using System.Data;
+using System.Text;
+using Terraria;
 using Terraria.Audio;
 using Terraria.GameContent.Bestiary;
 using Terraria.GameContent.ItemDropRules;
@@ -37,8 +39,8 @@ namespace EBF.NPCs.Idols
 
         public override void ModifyNPCLoot(NPCLoot npcLoot)
         {
-                npcLoot.Add(ItemDropRule.Common(ItemID.IronOre, 2, 2, 4));
-                npcLoot.Add(ItemDropRule.Common(ItemID.LeadOre, 2, 2, 4));
+            IItemDropRule eitherorerule = npcLoot.Add(ItemDropRule.Common(ItemID.IronOre, 2, 2, 4));
+            eitherorerule.OnFailedRoll(ItemDropRule.Common(ItemID.LeadOre, 1, 2, 4));
         }
 
         public override float SpawnChance(NPCSpawnInfo spawnInfo)
