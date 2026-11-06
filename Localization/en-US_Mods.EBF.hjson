@@ -243,6 +243,10 @@ Projectiles: {
 	HeavensVoice_HoldoutProjectile.DisplayName: Heavens Voice_ Holdout Projectile
 	HeavensVoice_Arrow.DisplayName: Heavens Voice_ Arrow
 	PaperFan_Gale.DisplayName: Paper Fan_ Gale
+	HonjoMasamune_GaleProjectile.DisplayName: Honjo Masamune_ Gale Projectile
+	HonjoMasamuneStab.DisplayName: Honjo Masamune Stab
+	WindElemental.DisplayName: Wind Elemental
+	HonjoMasamune_GaleBallProjectile.DisplayName: Honjo Masamune_ Gale Ball Projectile
 }
 
 Items: {

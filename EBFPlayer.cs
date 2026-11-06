@@ -30,6 +30,12 @@ namespace EBF
                 Player.accRunSpeed *= 0.6f;
                 Player.moveSpeed *= 0.6f;
             }
+            // Honjo Masamune increases speed when held
+            if (Player.HeldItem.type == ModContent.ItemType<HonjoMasamune>())
+            {
+                Player.accRunSpeed *= 1.5f;
+                Player.moveSpeed *= 1.5f;
+            }
         }
         private void ModifyHurtInfo(ref Player.HurtInfo info)
         {

@@ -805,4 +805,14 @@ Summon: {
 			'Give 'em the old X+Y+Down+Up!'
 			'''
 	}
+
+	HonjoMasamune: {
+		DisplayName: Honjo Masamune
+		Tooltip:
+			'''
+			Holding the toy summons a Wind Elemental, boosting your mobility.
+			Stabbing a foe makes the Wind Elemental to shoot wind orbs that explode into a gale shockwave.
+			'A legendary katana, its shorter than expected'
+			'''
+	}
 }
